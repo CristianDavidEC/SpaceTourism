@@ -1,3 +1,5 @@
+import './base.css';
+import './style.css';
 import router from "./routes";
 
 window.addEventListener('DOMContentLoaded', () => {

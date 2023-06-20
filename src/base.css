@@ -2,10 +2,11 @@
   font-size: 62.5%;
   line-height: 1.5;
   text-rendering: optimizeLegibility;
+  background-color: var(--color-primary);
 
   --color-primary: #0B0D17;
-  --color-secondary-text: #D0D6F9;
   --color-primary-text: #FFFFFF;
+  --color-secondary-text: #D0D6F9;
 
 }
 
@@ -29,23 +30,17 @@
   margin: 0;
 }
 
-body {
-  margin: 0;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
 #app {
   max-width: 100vw;
   margin: 0 auto;
 }
-
 
 h1 {
   font-family: 'Bellefair';
   font-size: 15rem;
   font-weight: 400;
   text-transform: uppercase;
+  color: var(--color-primary-text);
 }
 
 h2 {
@@ -53,6 +48,7 @@ h2 {
   font-size: 10rem;
   font-weight: 400;
   text-transform: uppercase;
+  color: var(--color-primary-text);
 }
 
 h3 {
@@ -60,6 +56,7 @@ h3 {
   font-size: 5.6rem;
   font-weight: 400;
   text-transform: uppercase;
+  color: var(--color-primary-text);
 }
 
 h4 {
@@ -67,6 +64,7 @@ h4 {
   font-size: 3.2rem;
   font-weight: 400;
   text-transform: uppercase;
+  color: var(--color-primary-text);
 }
 
 h5 {
@@ -83,6 +81,7 @@ h5 {
   font-size: 2.8rem;
   font-weight: 400;
   text-transform: uppercase;
+  color: var(--color-primary-text);
 }
 
 .sub-h2 {
@@ -92,6 +91,14 @@ h5 {
   letter-spacing: 0.235rem;
   text-transform: uppercase;
   color: var(--color-secondary-text);
+}
+
+.nav-text {
+  font-family: 'Barlow';
+  font-size: 1.6rem;
+  letter-spacing: 0.27rem;
+  color: var(--color-primary-text);
+  text-transform: uppercase;
 }
 
 .body-text {

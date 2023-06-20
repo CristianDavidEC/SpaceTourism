@@ -1,0 +1,29 @@
+a.home-button {
+    margin-top: 15rem;
+    display: inline-block;
+    background-color: var(--color-primary-text);
+    color: var(--color-primary-background);
+    border-radius: 100%;
+    width: 20rem;
+    height:20rem;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    line-height: 20rem;
+}
+
+div.home.text {
+    max-width: 43rem;
+    justify-content: center;
+}
+
+main.home.container {
+    margin-top: 18rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40rem;
+}
+
+
