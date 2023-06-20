@@ -12,7 +12,11 @@ const Home = async () => {
       truly out of this world experience!</p>
   </div>
 
-  <a class="home-button sub-h1" href="page">Explore</a>
+
+  <div class="home container-circle">
+    <a class="home-button sub-h1" href="page">Explore</a>
+    <div class="circle-animate"></div>
+  </div>
 </main>
 
 `;
