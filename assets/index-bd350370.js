@@ -17,7 +17,7 @@
 </main>
 
 `,u=async()=>`<main><h3>Hola de nuevo vamos a probar si se carga el css como quiero</h3></main>
-    `,f="/assets/logo-43040818.svg",p=async()=>{const t=document.createElement("header");return t.innerHTML=`
+    `,f="./assets/logo-43040818.svg",p=async()=>{const t=document.createElement("header");return t.innerHTML=`
 <nav class="container-nav">
     <div class="nav logo">
         <a href="/"><img src="${f}" alt="logo" border="0"></a>
