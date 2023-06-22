@@ -1,7 +1,7 @@
-import spaceLogo from "../assets/icons/logo.svg";
+import spaceLogo from '../assets/icons/logo.svg'
 
 const Nav = async () => {
-  const newNav = document.createElement("header");
+  const newNav = document.createElement('header')
 
   newNav.innerHTML = `
 <nav class="container-nav">
@@ -16,8 +16,8 @@ const Nav = async () => {
         <li><a href="/technology"><span>03</span> Technology</a></li>
     </ul>
 </>
-`;
-  return newNav;
-};
+`
+  return newNav
+}
 
-export default Nav;
+export default Nav
