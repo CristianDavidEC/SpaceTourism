@@ -1,10 +1,15 @@
 import Nav from '../components/nav'
 import Home from '../pages/home'
 import Destination from '../pages/destination'
+import CrewPage from '../pages/crew'
+import TechnologyPage from '../pages/technology'
+
 
 const routes = {
   '/': Home,
   '/destination': Destination,
+  '/crew': CrewPage,
+  '/technology': TechnologyPage,
 }
 
 const root = document.querySelector('#app')

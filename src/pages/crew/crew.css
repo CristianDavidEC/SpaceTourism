@@ -1,0 +1,99 @@
+body.crew {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)),
+        url('../../assets/images/background-crew-desktop.jpg');
+    background-size: cover;
+    background-position: 0rem -8rem;
+}
+
+main.crew.container {
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+h5.crew.subtitle {
+    color: var(--color-primary-text);
+    margin-top: 5rem;
+}
+
+h5.crew.subtitle span {
+    color: rgb(79, 82, 89);
+    font-weight: 800;
+}
+
+h4.crew.charge {
+    color: rgb(105, 107, 112);
+}
+
+article.crew.article {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin-top: 10rem;
+    gap: 6vw;
+}
+
+section.crew.section {
+    max-width: 50%;
+}
+
+p.crew {
+    max-width: 80%;
+}
+
+img.crew.img {
+    width: clamp(30rem, 40vw, 40rem);
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+}
+
+div.crew.slice {
+    margin: 5rem 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    height: 30px;
+}
+
+div.crew.slice div {
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+}
+
+div.crew.slice div .circle {
+    background-color: #494b57;
+    cursor: pointer;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+}
+
+div.crew.slice div .circle:hover {
+    background-color: #7f808a;
+}
+
+div.crew.slice div:hover {
+    border: 1px solid #7f808a;
+    animation-name: expand-border;
+    animation-duration: 1s;
+}
+
+div.crew.slice div .active {
+    background-color: var(--color-primary-text);
+}
+
+@keyframes expand-border {
+    0% {
+        padding: 0px;
+    }
+
+    100% {
+        padding: 10px;
+    }
+}

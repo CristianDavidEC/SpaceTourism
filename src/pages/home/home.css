@@ -1,3 +1,10 @@
+body.home {
+    background-image: url('../../assets/images/background-home-desktop.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+
 a.home-button {
     display: flex;
     background-color: var(--color-primary-text);

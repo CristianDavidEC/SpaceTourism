@@ -1,3 +1,9 @@
+body.destination {
+    background-image: url('../../assets/images/background-destination-desktop.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+}
+
 main.destination.container {
     width: 80%;
     margin: 4rem auto;

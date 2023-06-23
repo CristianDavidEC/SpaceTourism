@@ -1,0 +1,88 @@
+body.technology {
+    background-image: url('../../assets/images/background-technology-desktop.jpg');
+    background-size: cover;
+    background-position: 0rem -8rem;
+}
+
+h5.technology.subtitle {
+    color: var(--color-primary-text);
+    margin-top: 5rem;
+    margin-left: 15rem;
+}
+
+h5.technology.subtitle span {
+    color: rgb(79, 82, 89);
+    font-weight: 800;
+}
+
+h4.technology.charge {
+    color: rgb(105, 107, 112);
+}
+
+article.technology.article {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-left: 7%;
+    margin-top: 3%;
+}
+
+section.technology.section {
+    max-width: 50%;
+}
+
+p.technology {
+    max-width: 70%;
+}
+
+img.technology.img {
+    width: clamp(25rem, 40vw, 40rem);
+    position: relative;
+    right: 2.5%;
+}
+
+div.technology.points {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30rem;
+    margin: auto 0;
+    justify-content: space-between;
+}
+
+div.technology.points .point {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(129, 125, 125);
+    color: var(--color-primary);
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+}
+
+div.technology.points .point.active {
+    background-color: white;
+}
+
+div.technology.points .point.active h4{
+    color: var(--color-primary);
+}
+
+div.technology.points .point.active:hover{
+    background-color: rgba(172, 191, 214, 0.9);
+}
+
+
+div.technology.points .point:hover {
+    background-color: rgba(90, 141, 207, 0.219);
+    color: white;
+    border-color: white;
+}
+
+

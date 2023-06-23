@@ -33,13 +33,15 @@
 body {
   margin: auto;
   overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
 }
 
 #app {
   max-width: 1440px;
   margin: 0 auto;
-  
 }
+
 h1 {
   font-family: 'Bellefair';
   font-size: clamp(10rem, 15vw, 15rem);
@@ -58,7 +60,7 @@ h2 {
 
 h3 {
   font-family: 'Bellefair';
-  font-size: 5.6rem;
+  font-size: clamp(4.5rem, 5vw, 5.6rem);
   font-weight: 400;
   text-transform: uppercase;
   color: var(--color-primary-text);
