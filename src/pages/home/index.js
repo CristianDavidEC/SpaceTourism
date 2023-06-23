@@ -11,8 +11,7 @@ const Home = async () => {
       edge of it. Well sit back, and relax because we’ll give you a
       truly out of this world experience!</p>
   </div>
-
-
+  
   <div class="home container-circle">
     <a class="home-button sub-h1" href="page">Explore</a>
     <div class="circle-animate"></div>
